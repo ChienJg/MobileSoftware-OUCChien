@@ -1,0 +1,48 @@
+/* pages/index.wxss */
+.videobar{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin:10rpx;
+  border-bottom: 1rpx solid #987938;
+  color: goldenrod;
+
+}
+.videolist{
+  width: 100%;
+  min-height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+video{
+  width: 100%;
+}
+.danmu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+input{
+  height: 100rpx;
+  border:1px solid #987938;
+  flex-grow: 1;
+  /* 一行中除了别的元素所占空间全归本元素 */
+}
+button{
+  height: 100rpx;
+  color: #ffffff;
+  background-color: #987938;
+}
+.icon{
+  width:70rpx;
+  height: 70rpx;
+  margin:20rpx;
+}
+text{
+  font-size: 45rpx;
+  color:#987938;
+  margin:20rpx;
+  flex-grow:1;
+}

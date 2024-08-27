@@ -1,13 +1,8 @@
-{
-  "pages":[
-    "pages/index/index"
-  ],
+{"pages":[
+  "pages/index"
+],
   "window": {
-    "navigationBarBackgroundColor": "#3883fa",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "今日天气",
-    "backgroundColor": "#eeeeee",
-    "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "navigationBarBackgroundColor": "#987938",
+    "navigationBarTitleText": "口述校史"
   }
 }
