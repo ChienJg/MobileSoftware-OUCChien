@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<swiper indicator-dots interval="5000" duration="500" autoplay >
+  <block wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <!-- 额外添加功能，给图片添加文章链接，点击大屏图片能够直接划至对应文章。 -->
+      <image src="{{item.src}}" class="slide-image" bindtap='goToDetail' data-id='{{index + 1}}' ></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view id="news-list">
+  <view class="list-item" wx:for="{{newsList}}" wx:for-item="news" wx:key="{{news.id}}">
+  <image src="{{news.poster}}"></image>
+  <text bindtap='goToDetail' data-id='{{news.id}}'> {{news.title}}--{{news.add_date}}</text>
+  </view>
+</view>
